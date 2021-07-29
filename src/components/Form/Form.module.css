@@ -1,0 +1,18 @@
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.formLabel {
+  margin-bottom: 20px;
+}
+
+.formBtn {
+  width: 75px;
+  background-color: rgb(173, 173, 202);
+}
+.formBtn:hover:focus {
+  background-color: rgb(212, 184, 130);
+}
