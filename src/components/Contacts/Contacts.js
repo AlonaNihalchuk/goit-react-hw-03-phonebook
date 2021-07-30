@@ -8,8 +8,6 @@ class Contacts extends React.Component {
     contacts: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        number: PropTypes.string.isRequired,
       })
     ),
     onDelete: PropTypes.func.isRequired,
@@ -23,8 +21,6 @@ class Contacts extends React.Component {
             <ContactItem
               key={contact.id}
               contact={contact}
-              contactName={contact.name}
-              contactNumber={contact.number}
               onClick={onDelete}
             />
           ))}
